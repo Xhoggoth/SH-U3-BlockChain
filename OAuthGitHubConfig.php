@@ -1,15 +1,15 @@
 <?php 
 // Database configuration 
 define('DB_HOST', 'localhost'); 
-define('DB_USERNAME', 'user_administrator_portal_test'); 
-define('DB_PASSWORD', '3^AZ=j5uH*ZLutc-port3l'); 
+define('DB_USERNAME', ''); 
+define('DB_PASSWORD', ''); 
 define('DB_NAME', 'db_portal'); 
 define('DB_USER_TBL', 'oauth'); 
  
 // GitHub API configuration 
-define('CLIENT_ID', '58c0e629e0c7fa50a912'); 
-define('CLIENT_SECRET', '81ef40b52e37ffd4a33c4c6673d22a6a0ea6f9f2'); 
-define('REDIRECT_URL', 'http://englishcorporatelanguage.com/Portal-UTC/OAuthGitHub.php'); 
+define('CLIENT_ID', ''); 
+define('CLIENT_SECRET', ''); 
+define('REDIRECT_URL', ''); 
  
 // Start session 
 if(!session_id()){ 
